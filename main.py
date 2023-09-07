@@ -8,7 +8,6 @@ import keyboard
 import pystray
 import os
 
-
 def on_motion(event):
     root.attributes('-topmost', False)  # 关闭主窗口置顶
     x, y = pyautogui.position()  # 获取鼠标当前在屏幕上的坐标
